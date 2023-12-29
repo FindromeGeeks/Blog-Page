@@ -1,4 +1,5 @@
 import React from 'react'
+import styles from './featured.module.css'
 
 export default function Featured() {
   return (
