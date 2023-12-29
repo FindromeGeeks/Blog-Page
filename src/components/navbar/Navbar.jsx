@@ -11,14 +11,14 @@ export default function Navbar() {
   return (
     <div className={styles.container}>
       <div className={styles.social}>
-        <FontAwesomeIcon icon={faFacebookSquare} width={24} height={24}/>
-        <FontAwesomeIcon icon={faSquareInstagram} width={24} height={24}/>
-        <FontAwesomeIcon icon={faSquareThreads} width={24} height={24}/>
-        <FontAwesomeIcon icon={faLinkedin} width={24} height={24}/>
-        <FontAwesomeIcon icon={faSquareXTwitter} width={24} height={24}/>
+        <FontAwesomeIcon icon={faFacebookSquare} width={28} height={28}/>
+        <FontAwesomeIcon icon={faSquareInstagram} width={28} height={28}/>
+        <FontAwesomeIcon icon={faSquareThreads} width={28} height={28}/>
+        <FontAwesomeIcon icon={faLinkedin} width={28} height={28}/>
+        <FontAwesomeIcon icon={faSquareXTwitter} width={28} height={28}/>
       </div>
       <div className={styles.logo}>
-        <Image src="/logo.png" width={300} height={300}/>
+        <Image src="/logo.svg" width={250} height={125}/>
       </div>
       <div className={styles.links}>
         <ThemeToggle/>
